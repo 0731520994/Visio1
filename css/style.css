@@ -23,6 +23,11 @@ body {
 
 
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 50249664bede27fddc6c320c0ca0e5e98968cd8e
 p {
 
   background-color: blue;
@@ -131,11 +136,111 @@ img {
 
 /*arrow and text*/
 
+<<<<<<< HEAD
+=======
+
+
+.cards1-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 86%;
+  margin: auto;
+}
 
 
 
 
+.cards1,
+.cards {
+  flex: 1;
+  margin-right: 2%;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  margin-bottom: 5%;
+  
+}
+
+
+
+.greater {
+  position: relative;
+  background-color: #061c2c;
+  color: white;
+  padding-left: 1rem;
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+  margin-bottom: 5%;
+ 
+  
+}
+
+.greater::before {
+  content: "\003E";
+  color: #1D7BAE;
+  position: absolute;
+  top: 10%;
+  left: 10%; 
+  transform: translateX(-50%);
+  font-size: 50px;
+}
+
+
+
+
+.small-card-holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+.small-cards {
+  background-color: #244AC2;
+  color: white;
+  font-size: xx-small;
+  padding-top: 8px;
+  padding-bottom: 5px;
+  position: relative;
+  width: calc(50% - 0.5rem); 
+  margin-bottom: 1rem; 
+}
+
+.small-cards::before {
+  content: '\003E';
+  color: #244AC2;
+  margin-right: 5px;
+}
+
+.small-cards .arrow-icon {
+  color: #277FD7;
+  font-size:x-large;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+>>>>>>> 50249664bede27fddc6c320c0ca0e5e98968cd8e
+
+
+
+
+<<<<<<< HEAD
 .card-text {
+=======
+/*the icons and text part */
+
+.card {
+ 
+  display: flex;
+  justify-content: center;
+}
+
+card-text {
+>>>>>>> 50249664bede27fddc6c320c0ca0e5e98968cd8e
   flex: 1;
   margin-top: 10%;
 
@@ -164,136 +269,11 @@ img {
 
 }
 
-@media only screen and (max-width: 650px) {
-
-  /*nav*/
-
-
-  .p {
-    width: 70%;
-    background-color: blue;
-    padding: 1%;
-    color: white;
-    top: 25%;
-    font-size: 12px;
-    font-weight: bold;
-  }
-
-  .logo {
-    width: 70%;
-    height: auto;
-  }
-
-  .arrow {
-    position: absolute;
-    top: 43%;
-    transform: translateY(-50%);
-    font-size: 60px;
-    background: none;
-    border: none;
-    cursor: pointer;
-    color: white;
-  }
-
-  .dots-container {
-    position: absolute;
-    text-align: start;
-    margin-top: -27px;
-    z-index: 10;
-    margin-left: 55%;
-  }
-
-  .dot {
-    width: 2px;
-    height: 2px;
-    /* background-color: transparent;
-    border: 2px solid #bbb; */
-    /* border-radius: 50%;
-    margin: 0 5px;
-    cursor: pointer; */
-  }
-
-  .dot.active {
-    /* border: 2px solid white; */
-    /* z-index: 2; */
-  }
-
-  .p4 {
-    font-family: "Open Sans", sans-serif;
-    font-size: 14px;
-    line-height: 18.4px;
-    color: #000000;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-  }
-
-  .card-text {
-    margin-left: 15%;
-  }
-
-  .icons {
-    margin-left: 10%;
-    width: 30%;
-    margin-top: -11%;
-    z-index: 2;
-  }
-
-  .card {
-    margin-bottom: 5%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  /*blue cards*/
-
-  .cards1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-items: center;
-    justify-content: center;
-    margin-right: 1%;
-    margin-left: 0;
-    margin-bottom: 1rem;
-  }
-
-  .cards {
-  display: flex;
-    margin-right: 20px;
-    align-items: center;
-    justify-items: center;
-    justify-content: center;
-    margin-right: 1%;
-    margin-left: 0;
-    margin-bottom: 1rem;
-  }
-
-
-.small-card-holder {
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.small-cards {
-
-  margin-bottom: 3%;
-}
-
-.icons {
-  margin-left: 10%;
-  width: 60%;
-  margin-top: -9%;
-  z-index: 4;
-}
-
-
-} 
-
   
 
   @media only screen and (min-width: 300px) and (max-width: 350px) {
 
+    
     p {
   
         background-color: blue;
@@ -302,7 +282,7 @@ img {
         text-align: center;
         align-items: center;
         width: 80%;
-        top: 5%;
+        top: 16%;
         position: absolute;
         z-index: 10;
       }
@@ -338,7 +318,8 @@ img {
   .card-text {
     flex: 1;
     margin-top: 10%;
-    margin-left: 3%;
+    margin-left: 8%;
+    margin-right: 3%;
 
   }
 
@@ -349,46 +330,40 @@ img {
   
   }
 
-  /*blue cards*/
-  
-  .cards1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-items: center;
-    justify-content: center;
-    margin-right: 1%;
-    margin-left: 0;
-    margin-bottom: 1rem;
-  }
 
-  .cards {
-  display: flex;
-    margin-right: 20px;
-    align-items: center;
-    justify-items: center;
-    justify-content: center;
-    margin-right: 1%;
-    margin-left: 0;
-    margin-bottom: 1rem;
-  }
+/*arrow and text*/
+
+
+.cards1-container {
+  display: block; 
+  width: 90%;
+}
+
+.greater {
+  width: 90%;
+  margin-bottom: 5%; 
+}
+.small-card-holder,
+.cards1,
+.cards {
+  width: 100%;
+  margin-bottom: 5%; 
+}
+
+.small-cards {
+  width: 96%; 
+  margin-bottom: 5%; 
+}
+
+.dots-container {
+  margin-left: 70%; 
+}
+
+
+
 
   
-  .small-card-holder {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  
-  .small-cards {
-  
-    margin-bottom: 3%;
-  }
-  
-  .icons {
-    margin-left: 10%;
-    width: 60%;
-    margin-top: -9%;
-    z-index: 4;
-  }
+/* nav */
 
   .logo {
     width: 30%;
@@ -413,7 +388,7 @@ img {
         text-align: center;
         align-items: center;
         width: 70%;
-        top: 16%;
+        top: 17%;
         position: absolute;
         z-index: 10;
       }
@@ -455,53 +430,47 @@ img {
   
   }
 
-  /*blue cards*/
-  
-  .cards1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-items: center;
-    justify-content: center;
-    margin-right: 1%;
-    margin-left: 0;
-    margin-bottom: 1rem;
-  }
 
-  .cards {
+  
+/*arrow and text*/
+
+
+.cards1-container {
+  display: block; 
+  width: 80%;
+}
+
+
+
+.small-cards {
   display: flex;
-    margin-right: 20px;
-    align-items: center;
-    justify-items: center;
-    justify-content: center;
-    margin-right: 1%;
-    margin-left: 0;
-    margin-bottom: 1rem;
-  }
+  width: 100%; 
+  margin-bottom: 5%; 
+}
+
+.dots-container {
+  margin-left: 70%; 
+}
+
+.small-card-holder {
+  flex-wrap: nowrap; 
+}
+
+.small-cards {
+  width: calc(50% - 0.5rem); 
+  margin-bottom: 1rem; 
+}
 
   
-  .small-card-holder {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  
-  .small-cards {
-  
-    margin-bottom: 3%;
-  }
-  
-  .icons {
-    margin-left: 10%;
-    width: 60%;
-    margin-top: -9%;
-    z-index: 4;
-  }
+
+ /* Nav */
 
   .logo {
     width: 30%;
     height: 15%;
   }
   .nav {
-    width: 28px;
+    width: 22px;
     height: 3px;
     background-color: black;
     margin: 6px 0;
@@ -521,6 +490,7 @@ img {
     flex: 1;
     margin-top: 10%;
     margin-left: 10%;
+    margin-right: 4%;
 
   }
 
@@ -536,7 +506,7 @@ img {
         text-align: center;
         align-items: center;
         width: 70%;
-        top: 16%;
+        top: 21%;
         position: absolute;
         z-index: 10;
       }
@@ -580,37 +550,148 @@ img {
 
   /*blue cards*/
   
-  .cards1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-items: center;
-    justify-content: center;
-    margin-right: 1%;
-    margin-left: 0;
-    margin-bottom: 1rem;
-  }
+  
+  
+  
+.cards1-container {
+  display: block; 
+  width: 86%;
+}
 
-  .cards {
+
+.small-cards {
   display: flex;
-    margin-right: 20px;
-    align-items: center;
-    justify-items: center;
-    justify-content: center;
-    margin-right: 1%;
-    margin-left: 0;
-    margin-bottom: 1rem;
-  }
+  width: 100%; 
+  margin-bottom: 5%; 
+}
+
+.dots-container {
+  margin-left: 70%; 
+}
+
+.small-card-holder {
+  flex-wrap: nowrap; 
+}
+
+.small-cards {
+  width: calc(50% - 0.5rem); 
+  margin-bottom: 1rem; 
+}
+
+
+
+/*card with text */
+
+.card-text {
+  flex: 1;
+  margin-top: 10%;
+  margin-left: 10%;
+  margin-right: 1%;
+
+}
 
   
+/* nav */
+
+.logo {
+  width: 35%;
+  height: 8%;
+}
+.nav {
+  width: 28px;
+  height: 3px;
+  background-color: black;
+  margin: 6px 0;
+  margin-right: 30%;
+}
+
+
+  }
+
+
+  @media only screen and (min-width: 451px) and (max-width: 500px) {
+
+    p {
+  
+        background-color: blue;
+        padding: 1%;
+        color: white;
+        text-align: center;
+        align-items: center;
+        width: 70%;
+        top: 22%;
+        position: absolute;
+        z-index: 10;
+      }
+
+
+      .dots-container {
+        position: absolute;
+        text-align: start;
+        margin-top: -27px;
+        z-index: 10;
+        margin-left: 70%;
+      }
+        
+  .dot {
+    
+    background-image: url("https://visiofund.co.za/wp-content/themes/visio/images/slider-dots.svg");
+      width: 14px;
+      height: 24px;
+      display: inline-block;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin: 0 1px;
+  }
+
+  .card {
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+ 
+
+  .icons {
+    margin-left: 10%;
+    width: 70%;
+    margin-top: -10%;
+  
+  }
+
+  /*blue cards*/
+  
+  
+  .cards1-container {
+    display: block; 
+    width: 80%;
+  }
+  
+  
+  
+  .small-cards {
+    display: flex;
+    width: 100%; 
+    margin-bottom: 5%; 
+  }
+  
+  .dots-container {
+    margin-left: 70%; 
+  }
+  
   .small-card-holder {
-    grid-template-columns: repeat(2, 1fr);
+    flex-wrap: nowrap; 
   }
   
   .small-cards {
-  
-    margin-bottom: 3%;
+    width: calc(50% - 0.5rem); 
+    margin-bottom: 1rem; 
   }
+
+
+  /*nav */
   
   .icons {
     margin-left: 10%;
@@ -643,9 +724,419 @@ img {
   .card-text {
     flex: 1;
     margin-top: 10%;
-    margin-left: 10%;
+    margin-left: 8%;
 
   }
 
+  }
+
+
+  @media only screen and (min-width: 501px) and (max-width: 850px) {
+
+    p {
+  
+        background-color: blue;
+        padding: 1%;
+        color: white;
+        text-align: center;
+        align-items: center;
+        width: 70%;
+        top: 22%;
+        position: absolute;
+        z-index: 10;
+      }
+
+
+      .dots-container {
+        position: absolute;
+        text-align: start;
+        margin-top: -27px;
+        z-index: 10;
+        margin-left: 70%;
+      }
+        
+  .dot {
+    
+    background-image: url("https://visiofund.co.za/wp-content/themes/visio/images/slider-dots.svg");
+      width: 14px;
+      height: 24px;
+      display: inline-block;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin: 0 1px;
+  }
+
+  .card {
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+ 
+
+  .icons {
+    margin-left: 10%;
+    width: 70%;
+    margin-top: -10%;
+  
+  }
+
+  /*blue cards*/
+  
+  
+  .cards1-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+   
+  }
+  
+  
+  
+  
+  .cards1,
+  .cards {
+    flex: 1;
+    margin-right: 2%;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+    
+  }
+  
+  
+  
+  .greater {
+    position: relative;
+    background-color: #061c2c;
+    color: white;
+    padding-left: 1rem;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    margin-bottom: 5%;
+   
+    
+  }
+  
+  .greater::before {
+    content: "\003E";
+    color: #1D7BAE;
+    position: absolute;
+    top: 10%;
+    left: 20%; 
+    transform: translateX(-50%);
+    font-size: 50px;
+  }
+  
+  
+  
+  .small-cards {
+    width: 100%; 
+    margin-bottom: 5%; 
+  }
+  
+  .dots-container {
+    margin-left: 70%; 
+  }
+  
+  
+
+
+
+
+  /*nav */
+  
+  .icons {
+    margin-left: 10%;
+    width: 60%;
+    margin-top: -9%;
+    z-index: 4;
+  }
+
+  .logo {
+    width: 30%;
+    height: 15%;
+  }
+  .nav {
+    width: 28px;
+    height: 3px;
+    background-color: black;
+    margin: 6px 0;
+    margin-right: 30%;
+  }
+  
+  .p4 {
+  
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 18.4px;
+    color: #000000;
+  
+  }
+
+  .card-text {
+    flex: 1;
+    margin-top: 10%;
+    margin-left: 8%;
+
+  }
+
+  }
+
+
+
+  @media only screen and (min-width: 501px) and (max-width: 550px) {
+
+    p {
+  
+        background-color: blue;
+        padding: 1%;
+        color: white;
+        text-align: center;
+        align-items: center;
+        width: 70%;
+        top: 22%;
+        position: absolute;
+        z-index: 10;
+      }
+
+
+      .dots-container {
+        position: absolute;
+        text-align: start;
+        margin-top: -27px;
+        z-index: 10;
+        margin-left: 70%;
+      }
+        
+  .dot {
+    
+    background-image: url("https://visiofund.co.za/wp-content/themes/visio/images/slider-dots.svg");
+      width: 14px;
+      height: 24px;
+      display: inline-block;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin: 0 1px;
+  }
+
+  .card {
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+ 
+
+  .icons {
+    margin-left: 10%;
+    width: 70%;
+    margin-top: -10%;
+  
+  }
+
+  /*blue cards*/
+  
+  
+  .cards1-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+   
+  }
+  
+  
+  
+  
+  .cards1,
+  .cards {
+    flex: 1;
+    margin-right: 2%;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+    
+  }
+  
+  
+  
+  .greater {
+    position: relative;
+    background-color: #061c2c;
+    color: white;
+    padding-left: 1rem;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    margin-bottom: 5%;
+   
+    
+  }
+  
+  .greater::before {
+    content: "\003E";
+    color: #1D7BAE;
+    position: absolute;
+    top: 10%;
+    left: 20%; 
+    transform: translateX(-50%);
+    font-size: 50px;
+  }
+  
+  
+  
+  .small-cards {
+    width: 100%; 
+    margin-bottom: 5%; 
+  }
+  
+  .dots-container {
+    margin-left: 70%; 
+  }
+  
+  
+
+
+
+
+  /*nav */
+  
+  .icons {
+    margin-left: 10%;
+    width: 60%;
+    margin-top: -9%;
+    z-index: 4;
+  }
+
+  .logo {
+    width: 30%;
+    height: 15%;
+  }
+  .nav {
+    width: 28px;
+    height: 3px;
+    background-color: black;
+    margin: 6px 0;
+    margin-right: 30%;
+  }
+  
+  .p4 {
+  
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 18.4px;
+    color: #000000;
+  
+  }
+
+  .card-text {
+    flex: 1;
+    margin-top: 10%;
+    margin-left: 8%;
+
+  }
+
+  }
+
+  @media only screen and (min-width: 551px) and (max-width: 600px) {
+  
+    p {
+  
+      background-color: blue;
+      padding: 1%;
+      color: white;
+      text-align: center;
+      align-items: center;
+      width: 70%;
+      top: 26%;
+      position: absolute;
+      z-index: 10;
+    }
+
+    .card-text {
+      flex: 1;
+      margin-top: 10%;
+      margin-left: 6%;
+      margin-right: 3%;
+  
+    }
+
+    .card {
+      margin-bottom: 1%;
+      display: flex;
+      flex-direction: column;
+  
+    }
+  }
+
+
+  @media only screen and (min-width: 601px) and (max-width: 650px) {
+  
+    p {
+  
+      background-color: blue;
+      padding: 1%;
+      color: white;
+      text-align: center;
+      align-items: center;
+      width: 70%;
+      top: 28%;
+      position: absolute;
+      z-index: 10;
+    }
+
+    .card-text {
+      flex: 1;
+      margin-top: 10%;
+      margin-left: 6%;
+      margin-right: 3%;
+  
+    }
+
+    .card {
+      margin-bottom: 1%;
+      display: flex;
+      flex-direction: column;
+  
+    }
+  }
+
+
+  @media only screen and (min-width: 651px) and (max-width: 700px) {
+  
+    p {
+  
+      background-color: blue;
+      padding: 1%;
+      color: white;
+      text-align: center;
+      align-items: center;
+      width: 70%;
+      top: 30%;
+      position: absolute;
+      z-index: 10;
+    }
+
+    .card-text {
+      flex: 1;
+      margin-top: 10%;
+      margin-left: 6%;
+      margin-right: 3%;
+  
+    }
+
+    .card {
+      margin-bottom: 1%;
+      display: flex;
+      flex-direction: column;
+  
+    }
   }
 
