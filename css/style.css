@@ -1066,3 +1066,67 @@ card-text {
     }
   }
 
+
+  @media only screen and (min-width: 601px) and (max-width: 650px) {
+  
+    p {
+  
+      background-color: blue;
+      padding: 1%;
+      color: white;
+      text-align: center;
+      align-items: center;
+      width: 70%;
+      top: 28%;
+      position: absolute;
+      z-index: 10;
+    }
+
+    .card-text {
+      flex: 1;
+      margin-top: 10%;
+      margin-left: 6%;
+      margin-right: 3%;
+  
+    }
+
+    .card {
+      margin-bottom: 1%;
+      display: flex;
+      flex-direction: column;
+  
+    }
+  }
+
+
+  @media only screen and (min-width: 651px) and (max-width: 700px) {
+  
+    p {
+  
+      background-color: blue;
+      padding: 1%;
+      color: white;
+      text-align: center;
+      align-items: center;
+      width: 70%;
+      top: 30%;
+      position: absolute;
+      z-index: 10;
+    }
+
+    .card-text {
+      flex: 1;
+      margin-top: 10%;
+      margin-left: 6%;
+      margin-right: 3%;
+  
+    }
+
+    .card {
+      margin-bottom: 1%;
+      display: flex;
+      flex-direction: column;
+  
+    }
+  }
+
