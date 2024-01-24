@@ -147,6 +147,10 @@ img {
 
 /*arrow and text*/
 
+.arrow-icon {
+padding-right: 1rem;
+}
+
 
 
 .cards1-container {
@@ -231,6 +235,7 @@ img {
   right: 0;
   transform: translateY(-50%);
 }
+
 
 
 
@@ -1142,5 +1147,111 @@ card-text {
       flex-direction: column;
   
     }
+  }
+
+
+  @media only screen and (min-width: 701px) and (max-width: 750px) {
+  
+    p {
+  
+      background-color: blue;
+      padding: 1%;
+      color: white;
+      text-align: center;
+      align-items: center;
+      width: 70%;
+      top: 34%;
+      position: absolute;
+      z-index: 10;
+    }
+
+    .card-text {
+      flex: 1;
+      margin-top: 10%;
+      margin-left: 6%;
+      margin-right: 3%;
+  
+    }
+
+    .card {
+      margin-bottom: 1%;
+      display: flex;
+      flex-direction: column;
+  
+    }
+  }
+
+
+
+  @media only screen and (min-width: 751px) and (max-width: 800px) {
+  
+    p {
+  
+      background-color: blue;
+      padding: 1%;
+      color: white;
+      text-align: center;
+      align-items: center;
+      width: 60%;
+      top: 36%;
+      position: absolute;
+      z-index: 10;
+    }
+
+    .card-text {
+      flex: 1;
+      margin-top: 6%;
+      margin-left: 6%;
+      margin-right: 3%;
+  
+    }
+
+    .card {
+      margin-bottom: 1%;
+      display: flex;
+      flex-direction: column;
+  
+    }
+
+    
+/*black line*/
+
+
+  }
+
+  @media only screen and (min-width: 801px) and (max-width: 850px) {
+  
+    p {
+  
+      background-color: blue;
+      padding: 1%;
+      color: white;
+      text-align: center;
+      align-items: center;
+      width: 60%;
+      top: 38%;
+      position: absolute;
+      z-index: 10;
+    }
+
+    .card-text {
+      flex: 1;
+      margin-top: 6%;
+      margin-left: 6%;
+      margin-right: 3%;
+  
+    }
+
+    .card {
+      margin-bottom: 1%;
+      display: flex;
+      flex-direction: column;
+  
+    }
+
+    
+/*black line*/
+
+
   }
 
