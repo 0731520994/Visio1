@@ -21,7 +21,21 @@ body {
   margin-right: 30%;
 }
 
-
+.arrow{
+  position: absolute;
+  z-index: 20;
+  background-image: url('https://visiofund.co.za/wp-content/themes/visio/images/slider-next.svg');
+  top: 57%;
+  right: 0;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  height: 80px;
+  width: 100px;
+  margin-top: -40px;
+}
 
 
 
