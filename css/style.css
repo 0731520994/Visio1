@@ -375,7 +375,7 @@ card-text {
   .nav {
     width: 28px;
     height: 3px;
-    background-color: black;
+    background-color: rgb(44, 42, 42);
     margin: 6px 0;
     margin-right: 30%;
   }
@@ -829,6 +829,7 @@ img {
     flex: 1;
     margin-top: 10%;
     margin-left: 8%;
+    margin-right: 6%;
 
   }
 
@@ -1088,7 +1089,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 100%;
+    width: 90%;
    
   }
   
@@ -1162,7 +1163,7 @@ img {
   .nav {
     width: 28px;
     height: 3px;
-    background-color: black;
+    background-color: rgb(44, 42, 42);
     margin: 6px 0;
     margin-right: 30%;
   }
@@ -1215,6 +1216,18 @@ img {
       flex-direction: column;
   
     }
+
+    .cards1-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 90%;
+     
+    }
+
+    .dots-container {
+      margin-left: 88%; 
+    }
   }
 
 
@@ -1247,6 +1260,19 @@ img {
       flex-direction: column;
   
     }
+
+    .cards1-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 90%;
+     
+    }
+
+    .dots-container {
+      margin-left: 70%; 
+    }
+    
   }
 
 
@@ -1268,8 +1294,8 @@ img {
     .card-text {
       flex: 1;
       margin-top: 10%;
-      margin-left: 6%;
-      margin-right: 3%;
+      margin-left: 8%;
+      margin-right: 8%;
   
     }
 
@@ -1278,6 +1304,18 @@ img {
       display: flex;
       flex-direction: column;
   
+    }
+
+    .cards1-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 90%;
+     
+    }
+
+    .dots-container {
+      margin-left: 88%; 
     }
   }
 
@@ -1311,6 +1349,11 @@ img {
       flex-direction: column;
   
     }
+
+    .dots-container {
+      margin-left: 88%; 
+    }
+    
   }
 
 
@@ -1345,6 +1388,19 @@ img {
   
     }
 
+    .cards1-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 90%;
+     
+    }
+
+    .dots-container {
+      margin-left: 88%; 
+    }
+    
+
     
 /*black line*/
 
@@ -1369,7 +1425,52 @@ img {
     .card-text {
       flex: 1;
       margin-top: 6%;
-      margin-left: 6%;
+      margin-left: 12%;
+      margin-right: 3%;
+  
+    }
+
+    .dots-container {
+      margin-left: 88%; 
+    }
+    
+
+    .card {
+      margin-bottom: 1%;
+      display: flex;
+      flex-direction: column;
+
+    }
+
+    .cards1-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 80%;
+     
+    }
+
+  }
+  
+  @media only screen and (min-width: 801px) and (max-width: 850px) {
+  
+    p {
+  
+      background-color: blue;
+      padding: 1%;
+      color: white;
+      text-align: center;
+      align-items: center;
+      width: 60%;
+      top: 38%;
+      position: absolute;
+      z-index: 10;
+    }
+
+    .card-text {
+      flex: 1;
+      margin-top: 6%;
+      margin-left: 12%;
       margin-right: 3%;
   
     }
@@ -1381,9 +1482,134 @@ img {
   
     }
 
-    
-/*black line*/
-
-
+    .cards1-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 90%;
+     
+    }
   }
+    
+    @media only screen and (min-width: 851px) and (max-width: 900px) {
+  
+     
+      p {
+    
+        background-color: blue;
+        padding: 1%;
+        color: white;
+        text-align: center;
+        align-items: center;
+        width: 54%;
+        top: 44%;
+        position: absolute;
+        z-index: 10;
+      }
+  
+      .card-text {
+        flex: 1;
+        margin-top: 6%;
+        margin-left: 12%;
+        margin-right: 3%;
+        margin-bottom: 5%;
+    
+      }
+  
+      .card {
+        margin-bottom: 1%;
+        display: flex;
+        flex-direction: column;
+    
+      }
+  
+      .cards1-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 96%;
+       
+      }
 
+
+      .arrow{
+        position: absolute;
+        z-index: 20;
+        background-image: url('https://visiofund.co.za/wp-content/themes/visio/images/slider-next.svg');
+        top: 51%;
+        right: 0;
+        display: inline-block;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+        height: 45px;
+        width: 50px;
+        margin-top: -40px;
+      }
+      
+
+
+  
+  .dot {
+  
+    background-image: url("https://visiofund.co.za/wp-content/themes/visio/images/slider-dots.svg");
+      width: 18px;
+      height: 18px;
+      display: inline-block;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin: 0 1px;
+  }
+  
+    }
+
+
+    
+    @media only screen and (min-width: 901px) and (max-width: 1100px) {
+    
+      p {
+    
+        background-color: blue;
+        padding: 1%;
+        color: white;
+        text-align: center;
+        align-items: center;
+        width: 54%;
+        top: 44%;
+        position: absolute;
+        z-index: 10;
+      }
+  
+      .card-text {
+        flex: 1;
+        margin-top: 6%;
+        margin-left: 12%;
+        margin-right: 3%;
+        margin-bottom: 5%;
+    
+      }
+  
+      .card {
+        margin-bottom: 1%;
+        display: flex;
+        flex-direction: column;
+    
+      }
+  
+      .cards1-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 90%;
+       
+      }
+      
+  /*black line*/
+  
+    }
+
+
+
+  
