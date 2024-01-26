@@ -327,12 +327,13 @@ card-text {
   }
 
   .icons {
-    margin-left: 8%;
+    margin-left: -4%;
     width: 70%;
     margin-top: -10%;
-  
+    z-index: 2;
   }
 
+ 
   
 
 /*arrow and text*/
@@ -359,9 +360,6 @@ card-text {
   margin-bottom: 5%; 
 }
 
-.dots-container {
-  margin-left: 70%; 
-}
 
 
 
@@ -477,7 +475,7 @@ img {
         text-align: start;
         margin-top: -27px;
         z-index: 10;
-        margin-left: 70%;
+        margin-left: 76%;
       }
         
   .dot {
@@ -526,9 +524,6 @@ img {
   margin-bottom: 5%; 
 }
 
-.dots-container {
-  margin-left: 70%; 
-}
 
 .small-card-holder {
   flex-wrap: nowrap; 
@@ -613,7 +608,7 @@ img {
         text-align: start;
         margin-top: -27px;
         z-index: 10;
-        margin-left: 70%;
+        margin-left: 78%;
       }
         
   .dot {
@@ -661,9 +656,7 @@ img {
   margin-bottom: 5%; 
 }
 
-.dots-container {
-  margin-left: 70%; 
-}
+
 
 .small-card-holder {
   flex-wrap: nowrap; 
@@ -754,7 +747,7 @@ img {
         text-align: start;
         margin-top: -27px;
         z-index: 10;
-        margin-left: 70%;
+        margin-left: 78%;
       }
         
   .dot {
@@ -801,9 +794,7 @@ img {
     margin-bottom: 5%; 
   }
   
-  .dots-container {
-    margin-left: 70%; 
-  }
+
   
   .small-card-holder {
     flex-wrap: nowrap; 
@@ -895,7 +886,7 @@ img {
         text-align: start;
         margin-top: -27px;
         z-index: 10;
-        margin-left: 70%;
+        margin-left: 80%;
       }
         
   .dot {
@@ -982,11 +973,6 @@ img {
     margin-bottom: 5%; 
   }
   
-  .dots-container {
-    margin-left: 70%; 
-  }
-  
-  
 
 
 
@@ -1071,7 +1057,7 @@ img {
         text-align: start;
         margin-top: -27px;
         z-index: 10;
-        margin-left: 70%;
+        margin-left: 78%;
       }
         
   .dot {
@@ -1158,10 +1144,7 @@ img {
     margin-bottom: 5%; 
   }
   
-  .dots-container {
-    margin-left: 70%; 
-  }
-  
+
   
 
 
@@ -1247,7 +1230,11 @@ img {
     }
 
     .dots-container {
-      margin-left: 88%; 
+      position: absolute;
+      text-align: start;
+      margin-top: -27px;
+      z-index: 10;
+      margin-left: 83%;
     }
   }
 
@@ -1291,7 +1278,11 @@ img {
     }
 
     .dots-container {
-      margin-left: 70%; 
+      position: absolute;
+      text-align: start;
+      margin-top: -27px;
+      z-index: 10;
+      margin-left: 84%;
     }
     
   }
@@ -1334,9 +1325,12 @@ img {
       width: 90%;
      
     }
-
     .dots-container {
-      margin-left: 88%; 
+      position: absolute;
+      text-align: start;
+      margin-top: -27px;
+      z-index: 10;
+      margin-left: 86%;
     }
   }
 
@@ -1583,6 +1577,22 @@ img {
       background-position: center;
       margin: 0 1px;
   }
+
+  .dots-container {
+    position: absolute;
+    text-align: start;
+    margin-top: -27px;
+    z-index: 10;
+    margin-left: 86%;
+  }
+
+  .icons {
+    margin-left: 10%;
+    width: 40%;
+    margin-top: -11%;
+    z-index: 2;
+  
+  }
   
     }
 
@@ -1626,6 +1636,23 @@ img {
         width: 90%;
        
       }
+
+      .dots-container {
+        position: absolute;
+        text-align: start;
+        margin-top: -27px;
+        z-index: 10;
+        margin-left: 84%;
+      }
+
+      .icons {
+        margin-left: 10%;
+        width: 40%;
+        margin-top: -11%;
+        z-index: 2;
+      
+      }
+    
       
   /*black line*/
   
