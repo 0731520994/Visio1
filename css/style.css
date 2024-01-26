@@ -1180,7 +1180,8 @@ img {
   .card-text {
     flex: 1;
     margin-top: 10%;
-    margin-left: 8%;
+    margin-left: 12%;
+    margin-right: 6%;
 
   }
 
@@ -1205,8 +1206,8 @@ img {
     .card-text {
       flex: 1;
       margin-top: 10%;
-      margin-left: 6%;
-      margin-right: 3%;
+      margin-left: 10%;
+      margin-right: 6%;
   
     }
 
@@ -1249,7 +1250,7 @@ img {
     .card-text {
       flex: 1;
       margin-top: 10%;
-      margin-left: 6%;
+      margin-left: 12%;
       margin-right: 3%;
   
     }
@@ -1294,7 +1295,7 @@ img {
     .card-text {
       flex: 1;
       margin-top: 10%;
-      margin-left: 8%;
+      margin-left: 12%;
       margin-right: 8%;
   
     }
@@ -1338,8 +1339,8 @@ img {
     .card-text {
       flex: 1;
       margin-top: 10%;
-      margin-left: 6%;
-      margin-right: 3%;
+      margin-left: 12%;
+      margin-right: 6%;
   
     }
 
@@ -1376,7 +1377,7 @@ img {
     .card-text {
       flex: 1;
       margin-top: 6%;
-      margin-left: 6%;
+      margin-left: 12%;
       margin-right: 3%;
   
     }
