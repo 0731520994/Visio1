@@ -321,18 +321,19 @@ card-text {
   .card-text {
     flex: 1;
     margin-top: 10%;
-    margin-left: 8%;
-    margin-right: 3%;
+    margin-left: 14%;
+    margin-right: 8%;
 
   }
 
   .icons {
-    margin-left: 10%;
+    margin-left: 8%;
     width: 70%;
     margin-top: -10%;
   
   }
 
+  
 
 /*arrow and text*/
 
@@ -441,6 +442,16 @@ img {
 
 }
 
+
+.p4 {
+
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 18.4px;
+  color: #000000;
+ 
+
+}
 
 
   }
@@ -671,7 +682,7 @@ img {
   flex: 1;
   margin-top: 10%;
   margin-left: 10%;
-  margin-right: 1%;
+  margin-right: 8%;
 
 }
 
@@ -708,6 +719,15 @@ img {
 }
 
 
+.slider-container {
+  margin-top: 15%;
+  position: relative;
+  max-width: 90%;
+  margin: auto;
+  margin-top: -15%;
+  margin-bottom: 1%;
+
+}
 
   }
 
