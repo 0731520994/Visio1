@@ -272,7 +272,7 @@ card-text {
 
 }
 
-@media only screen and (max-width: 299px) {
+@media only screen and (max-width: 136px) {
   p {
   
     background-color: blue;
@@ -280,11 +280,11 @@ card-text {
     color: white;
     text-align: center;
     align-items: center;
-    width: 48%;
-    top: 12%;
+    width: 60%;
+    top: 10%;
     position: absolute;
     z-index: 10;
-    font-size: smaller;
+    font-size:xx-small;
   }
 
   .dots-container {
@@ -388,7 +388,365 @@ background-repeat: no-repeat;
 background-position: center;
 cursor: pointer;
 height: 40px;
-width: 60px;
+width: 20px;
+margin-top: -40px;
+}
+
+
+
+/* slider*/
+
+
+
+.slider-container {
+margin-top: 15%;
+position: relative;
+max-width: 100%;
+margin: auto;
+margin-top: -15%;
+margin-bottom: 5%;
+margin-left: 6%;
+
+}
+
+.slider {
+display: flex;
+overflow: hidden;
+position: relative;
+}
+
+.slide {
+flex: 0 0 100%;
+}
+
+img {
+width: 100%;
+height: auto;
+}
+
+/*black line*/
+
+.blackline {
+width: 90%;
+height: 30px;
+background-color: white;
+margin: 6px 0; 
+align-items: end;
+position: relative;
+margin-left: 10%;
+margin-top: 6%;
+
+}
+
+
+.p4 {
+
+font-family: "Open Sans", sans-serif;
+font-size: 16px;
+line-height: 18.4px;
+color: #000000;
+
+
+}
+
+
+}
+@media only screen and (max-width: 299px) {
+  p {
+  
+    background-color: blue;
+    padding: 1%;
+    color: white;
+    text-align: center;
+    align-items: center;
+    width: 40%;
+    top: 12%;
+    position: absolute;
+    z-index: 10;
+    font-size:x-small;
+  }
+
+  .dots-container {
+    position: absolute;
+    text-align: start;
+    margin-top: -27px;
+    z-index: 10;
+    margin-left: 70%;
+  }
+    
+.dot {
+
+background-image: url("https://visiofund.co.za/wp-content/themes/visio/images/slider-dots.svg");
+  width: 11px;
+  height: 22px;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 1px;
+}
+
+.card {
+ margin-bottom: 5%; 
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.card-text {
+flex: 1;
+margin-top: 4%;
+margin-left: 6%;
+margin-right: 8%;
+
+}
+
+.icons {
+margin-left: -26%;
+width: 70%;
+margin-top: -18%;
+z-index: 2;
+}
+
+
+
+
+/*arrow and text*/
+
+
+.cards1-container {
+display: block; 
+width: 90%;
+margin-top: -16%;
+}
+
+.greater {
+width: 90%;
+margin-bottom: 5%; 
+}
+.small-card-holder,
+.cards1,
+.cards {
+width: 100%;
+margin-bottom: 5%; 
+}
+
+.small-cards {
+width: 96%; 
+margin-bottom: 5%; 
+}
+
+
+
+
+
+
+/* nav */
+
+.logo {
+width: 30%;
+height: 15%;
+}
+.nav {
+width: 28px;
+height: 3px;
+background-color: rgb(44, 42, 42);
+margin: 6px 0;
+margin-right: 30%;
+}
+
+.arrow{
+position: absolute;
+z-index: 20;
+background-image: url('https://visiofund.co.za/wp-content/themes/visio/images/slider-next.svg');
+top: 57%;
+right: 0;
+display: inline-block;
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+cursor: pointer;
+height: 40px;
+width: 20px;
+margin-top: -40px;
+}
+
+
+
+/* slider*/
+
+
+
+.slider-container {
+margin-top: 15%;
+position: relative;
+max-width: 100%;
+margin: auto;
+margin-top: -15%;
+margin-bottom: 5%;
+margin-left: 6%;
+
+}
+
+.slider {
+display: flex;
+overflow: hidden;
+position: relative;
+}
+
+.slide {
+flex: 0 0 100%;
+}
+
+img {
+width: 100%;
+height: auto;
+}
+
+/*black line*/
+
+.blackline {
+width: 90%;
+height: 30px;
+background-color: white;
+margin: 6px 0; 
+align-items: end;
+position: relative;
+margin-left: 10%;
+margin-top: 6%;
+
+}
+
+
+.p4 {
+
+font-family: "Open Sans", sans-serif;
+font-size: 16px;
+line-height: 18.4px;
+color: #000000;
+
+
+}
+
+
+}
+@media only screen and (max-width: 226px) {
+  p {
+  
+    background-color: blue;
+    padding: 1%;
+    color: white;
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    top: 12%;
+    position: absolute;
+    z-index: 10;
+    font-size:x-small;
+  }
+
+  .dots-container {
+    position: absolute;
+    text-align: start;
+    margin-top: -27px;
+    z-index: 10;
+    margin-left: 70%;
+  }
+    
+.dot {
+
+background-image: url("https://visiofund.co.za/wp-content/themes/visio/images/slider-dots.svg");
+  width: 11px;
+  height: 22px;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 1px;
+}
+
+.card {
+ margin-bottom: 5%; 
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.card-text {
+flex: 1;
+margin-top: 4%;
+margin-left: 6%;
+margin-right: 8%;
+
+}
+
+.icons {
+margin-left: -26%;
+width: 70%;
+margin-top: -18%;
+z-index: 2;
+}
+
+
+
+
+/*arrow and text*/
+
+
+.cards1-container {
+display: block; 
+width: 90%;
+margin-top: -16%;
+}
+
+.greater {
+width: 90%;
+margin-bottom: 5%; 
+}
+.small-card-holder,
+.cards1,
+.cards {
+width: 100%;
+margin-bottom: 5%; 
+}
+
+.small-cards {
+width: 96%; 
+margin-bottom: 5%; 
+}
+
+
+
+
+
+
+/* nav */
+
+.logo {
+width: 30%;
+height: 15%;
+}
+.nav {
+width: 28px;
+height: 3px;
+background-color: rgb(44, 42, 42);
+margin: 6px 0;
+margin-right: 30%;
+}
+
+.arrow{
+position: absolute;
+z-index: 20;
+background-image: url('https://visiofund.co.za/wp-content/themes/visio/images/slider-next.svg');
+top: 57%;
+right: 0;
+display: inline-block;
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+cursor: pointer;
+height: 40px;
+width: 20px;
 margin-top: -40px;
 }
 
