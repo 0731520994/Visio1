@@ -865,7 +865,7 @@ color: #000000;
 
   .icons {
     margin-left: -26%;
-    width: 70%;
+    width: 60%;
     margin-top: -18%;
     z-index: 2;
   }
@@ -955,7 +955,7 @@ color: #000000;
   position: relative;
   max-width: 90%;
   margin: auto;
-  margin-top: %;
+ 
   margin-bottom: 1%;
 
 }
@@ -1048,10 +1048,12 @@ img {
 
  
 
+
   .icons {
-    margin-left: 4%;
-    width: 70%;
-    margin-top: -20%;
+    margin-left: 10%;
+    width: 50%;
+    margin-bottom: 7%;
+    margin-top: -10%;
   
   }
 
@@ -1212,13 +1214,12 @@ img {
 
   }
 
- 
 
   .icons {
-    margin-left: 6%;
-    width: 70%;
-    margin-top: -20%;
-    margin-right: 8%;
+    margin-left: 10%;
+    width: 40%;
+    margin-bottom: 7%;
+    margin-top: -10%;
   
   }
 
@@ -1415,11 +1416,13 @@ img {
 
   /*nav */
   
+ 
   .icons {
-    margin-left: 12%;
-    width: 60%;
-    margin-top: -16%;
-    z-index: 4;
+    margin-left: 10%;
+    width: 40%;
+    margin-bottom: 7%;
+    margin-top: -10%;
+  
   }
 
   .logo {
@@ -1610,11 +1613,13 @@ img {
 
   /*nav */
   
+ 
   .icons {
     margin-left: 10%;
-    width: 60%;
-    margin-top: -50%;
-    z-index: 4;
+    width: 40%;
+    margin-bottom: 7%;
+    margin-top: -10%;
+  
   }
 
   .logo {
@@ -1804,11 +1809,13 @@ img {
 
   /*nav */
   
+
   .icons {
     margin-left: 10%;
-    width: 60%;
-    margin-top: -16%;
-    z-index: 4;
+    width: 40%;
+    margin-bottom: 7%;
+    margin-top: -10%;
+  
   }
 
   .logo {
@@ -1897,10 +1904,12 @@ img {
 
  
 
+ 
   .icons {
     margin-left: 10%;
-    width: 70%;
-    margin-top: -18%;
+    width: 40%;
+    margin-bottom: 7%;
+    margin-top: -10%;
   
   }
 
@@ -1984,10 +1993,12 @@ img {
 
  
 
+ 
   .icons {
     margin-left: 10%;
-    width: 70%;
-    margin-top: -18%;
+    width: 40%;
+    margin-bottom: 7%;
+    margin-top: -10%;
   
   }
 
@@ -2075,10 +2086,12 @@ img {
 
  
 
+ 
   .icons {
     margin-left: 10%;
-    width: 70%;
-    margin-top: -20%;
+    width: 40%;
+    margin-bottom: 7%;
+    margin-top: -10%;
   
   }
 
@@ -2168,10 +2181,12 @@ img {
 
  
 
+ 
   .icons {
     margin-left: 10%;
-    width: 70%;
-    margin-top: -18%;
+    width: 40%;
+    margin-bottom: 5%;
+    margin-top: -10%;
   
   }
 
@@ -2250,8 +2265,9 @@ img {
 
   .icons {
     margin-left: 10%;
-    width: 70%;
-    margin-top: -18%;
+    width: 40%;
+    margin-bottom: 7%;
+    margin-top: -10%;
   
   }
 
@@ -2335,8 +2351,9 @@ img {
 
   .icons {
     margin-left: 10%;
-    width: 70%;
-    margin-top: -20%;
+    width: 40%;
+    margin-bottom: 7%;
+    margin-top: -10%;
   
   }
 
@@ -2434,6 +2451,15 @@ img {
       margin-right: 5%;
     
     }
+
+    
+  .icons {
+    margin-left: 10%;
+    width: 40%;
+    margin-bottom: 7%;
+    margin-top: -10%;
+  
+  }
   }
     
     @media only screen and (min-width: 851px) and (max-width: 900px) {
@@ -2471,13 +2497,14 @@ img {
   
  
 
-    .icons {
-      margin-left: 10%;
-      width: 70%;
-      margin-top: -20%;
-    
-    }
+   
+  .icons {
+    margin-left: 10%;
+    width: 40%;
+    margin-bottom: 7%;
+    margin-top: -10%;
   
+  }
       .cards1-container {
         display: flex;
         flex-wrap: wrap;
@@ -2527,11 +2554,12 @@ img {
     margin-left: 86%;
   }
 
+  
   .icons {
     margin-left: 10%;
     width: 40%;
-    margin-top: -11%;
-    z-index: 2;
+    margin-bottom: 1%;
+    margin-top: -12%;
   
   }
   
@@ -2607,13 +2635,14 @@ img {
         margin-left: 84%;
       }
 
-      .icons {
-        margin-left: 10%;
-        width: 50%;
-        margin-top: -18%;
-        z-index: 2;
-      
-      }
+    
+  .icons {
+    margin-left: 10%;
+    width: 40%;
+    margin-bottom: 2%;
+    margin-top: -17%;
+  
+  }
     
       
   /*black line*/
