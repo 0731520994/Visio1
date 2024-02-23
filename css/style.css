@@ -1,5 +1,6 @@
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans";
+  font-weight: 300;
   margin: 0;
   padding: 0;
 }
@@ -47,7 +48,7 @@ p {
   text-align: center;
   align-items: center;
   width: 27%;
-  top: 40%;
+  top: 44%;
   position: absolute;
   z-index: 10;
 }
@@ -80,6 +81,7 @@ p {
   margin: auto;
   margin-top: -15%;
   margin-bottom: 5%;
+  size: 19px;
 
 }
 
@@ -149,8 +151,9 @@ padding-right: 1rem;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 86%;
+  width: 91%;
   margin: auto;
+ 
 }
 
 
@@ -180,6 +183,15 @@ padding-right: 1rem;
  
   
 }
+
+.greater p1 {
+  font-size: 17px;
+}
+
+.small-cards p2 {
+  font-size: 14px;
+}
+
 
 .greater::before {
   content: "\003E";
@@ -243,15 +255,16 @@ padding-right: 1rem;
 
 }
 
-card-text {
+.card-text {
   flex: 1;
-  margin-top: 10%;
+  margin-left: 5%;
+
 
 
 }
 
 .icons {
-  margin-left: 10%;
+  margin-right: 5%;
   width: 30%;
   margin-top: -11%;
   z-index: 2;
@@ -265,10 +278,11 @@ card-text {
 
 .p4 {
 
-  font-family: "Open Sans", sans-serif;
-  font-size: 16px;
-  line-height: 18.4px;
+  font-family: "Open Sans", ;
+  font-size: 19px;
   color: #000000;
+
+  
 
 }
 
@@ -858,13 +872,13 @@ color: #000000;
   .card-text {
     flex: 1;
     margin-top: 4%;
-    margin-left: 6%;
+    margin-left: 5%;
     margin-right: 8%;
 
   }
 
   .icons {
-    margin-left: -26%;
+    margin-left: -33%;
     width: 60%;
     margin-top: -18%;
     z-index: 2;
@@ -1050,7 +1064,7 @@ img {
 
 
   .icons {
-    margin-left: 10%;
+    margin-left: 3%;
     width: 50%;
     margin-bottom: 7%;
     margin-top: -10%;
@@ -1113,8 +1127,8 @@ img {
   
   .p4 {
   
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
+    font-family: "Open Sans", ;
+    font-size: 19px;
     line-height: 18.4px;
     color: #000000;
   
@@ -1123,7 +1137,7 @@ img {
   .card-text {
     flex: 1;
     margin-top: 10%;
-    margin-left: 7%;
+    margin-left: 6%;
     margin-right: 7%;
 
   }
@@ -1216,53 +1230,39 @@ img {
 
 
   .icons {
-    margin-left: 10%;
+    margin-left: 4%;
     width: 40%;
     margin-bottom: 7%;
     margin-top: -10%;
   
   }
 
-  /*blue cards*/
-  
-  
-  
-  
+  /*arrow and text*/
+
+
 .cards1-container {
   display: block; 
-  width: 88%;
+  width: 90%;
   margin-top: -16%;
 }
 
-
-.small-cards {
-  display: flex;
-  width: 100%; 
+.greater {
+  width: 90%;
+  margin-bottom: 5%; 
+}
+.small-card-holder,
+.cards1,
+.cards {
+  width: 100%;
   margin-bottom: 5%; 
 }
 
-
-
-.small-card-holder {
-  flex-wrap: nowrap; 
-}
-
 .small-cards {
-  width: calc(50% - 0.5rem); 
-  margin-bottom: 1rem; 
+  width: 96%; 
+  margin-bottom: 5%; 
 }
 
-
-
-/*card with text */
-
-.card-text {
-  flex: 1;
-  margin-top: 6%;
-  margin-left: 10%;
-  margin-right: 8%;
-
-}
+  
 
   
 /* nav */
@@ -1379,9 +1379,9 @@ img {
  
 
   .icons {
-    margin-left: 10%;
-    width: 70%;
-    margin-top: -10%;
+    margin-left: 2%;
+    width: 50%;
+    margin-top: -12%;
   
   }
 
@@ -1390,8 +1390,8 @@ img {
   
   .cards1-container {
     display: block; 
-    width: 80%;
-    margin-top: -15%;
+    width: 90%;
+    margin-top: -12%;
   }
   
   
@@ -1417,13 +1417,7 @@ img {
   /*nav */
   
  
-  .icons {
-    margin-left: 10%;
-    width: 40%;
-    margin-bottom: 7%;
-    margin-top: -10%;
-  
-  }
+
 
   .logo {
     width: 30%;
@@ -1439,9 +1433,8 @@ img {
   
   .p4 {
   
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    line-height: 18.4px;
+    font-family: "Open Sans";
+    font-size: 19px;
     color: #000000;
   
   }
@@ -1449,7 +1442,7 @@ img {
   .card-text {
     flex: 1;
     margin-top: 1%;
-    margin-left: 14%;
+    margin-left: 5%;
     margin-right: 12%;
     
 
@@ -1543,13 +1536,7 @@ img {
 
  
 
-  .icons {
-    margin-left: 10%;
-    width: 70%;
-    margin-top: 39%;
-  
-  }
-
+ 
   /*blue cards*/
   
   
@@ -1614,13 +1601,7 @@ img {
   /*nav */
   
  
-  .icons {
-    margin-left: 10%;
-    width: 40%;
-    margin-bottom: 7%;
-    margin-top: -10%;
-  
-  }
+
 
   .logo {
     width: 30%;
@@ -1736,74 +1717,33 @@ img {
 
   }
 
- 
+/*blue cards*/
+  
+  
+.cards1-container {
+  display: block; 
+  width: 90%;
+  margin-top: -12%;
+}
 
-  .icons {
-    margin-left: 10%;
-    width: 70%;
-    margin-top: 1%;
-  
-  }
 
-  /*blue cards*/
-  
-  
-  .cards1-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 90%;
-   
-  }
-  
-  
-  
-  
-  .cards1,
-  .cards {
-    flex: 1;
-    margin-right: 2%;
-    align-items: center;
-    justify-items: center;
-    justify-content: center;
-    margin-bottom: 5%;
-    
-  }
-  
-  
-  
-  .greater {
-    position: relative;
-    background-color: #061c2c;
-    color: white;
-    padding-left: 1rem;
-    padding-top: 5rem;
-    padding-bottom: 1rem;
-    margin-bottom: 5%;
-   
-    
-  }
-  
-  .greater::before {
-    content: "\003E";
-    color: #1D7BAE;
-    position: absolute;
-    top: 10%;
-    left: 20%; 
-    transform: translateX(-50%);
-    font-size: 50px;
-  }
-  
-  
-  
-  .small-cards {
-    width: 100%; 
-    margin-bottom: 5%; 
-  }
-  
 
-  
+.small-cards {
+  display: flex;
+  width: 100%; 
+  margin-bottom: 5%; 
+}
 
+
+
+.small-card-holder {
+  flex-wrap: nowrap; 
+}
+
+.small-cards {
+  width: calc(50% - 0.5rem); 
+  margin-bottom: 1rem; 
+}
 
 
 
@@ -1811,7 +1751,7 @@ img {
   
 
   .icons {
-    margin-left: 10%;
+    margin-left: 4%;
     width: 40%;
     margin-bottom: 7%;
     margin-top: -10%;
@@ -1832,9 +1772,8 @@ img {
   
   .p4 {
   
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    line-height: 18.4px;
+    font-family: "Open Sans";
+    font-size: 19px;
     color: #000000;
   
   }
@@ -1842,7 +1781,7 @@ img {
   .card-text {
     flex: 1;
     margin-top: 2%;
-    margin-left: 12%;
+    margin-left: 6%;
     margin-right: 6%;
 
   }
@@ -1868,6 +1807,7 @@ img {
   
   }
 
+
   }
 
   @media only screen and (min-width: 551px) and (max-width: 600px) {
@@ -1889,7 +1829,7 @@ img {
     .card-text {
       flex: 1;
       margin-top: 2%;
-      margin-left: 12%;
+      margin-left: 6%;
       margin-right: 10%;
   
     }
@@ -1906,19 +1846,14 @@ img {
 
  
   .icons {
-    margin-left: 10%;
+    margin-left: 4%;
     width: 40%;
-    margin-bottom: 7%;
+    margin-bottom: 3%;
     margin-top: -10%;
   
   }
 
-    .card {
-      margin-bottom: 1%;
-      display: flex;
-      flex-direction: column;
   
-    }
 
     .cards1-container {
       display: flex;
@@ -1956,6 +1891,44 @@ img {
       margin-right: 5%;
     
     }
+
+    /*blue cards*/
+  
+  
+  .cards1-container {
+    display: block; 
+    width: 90%;
+    margin-top: -12%;
+  }
+  
+  
+  
+  .small-cards {
+    display: flex;
+    width: 100%; 
+    margin-bottom: 5%; 
+  }
+  
+
+  
+  .small-card-holder {
+    flex-wrap: nowrap; 
+  }
+  
+  .small-cards {
+    width: calc(50% - 0.5rem); 
+    margin-bottom: 1rem; 
+  }
+
+  .p4 {
+
+    font-family: "Open Sans";
+    font-size: 19px;
+    line-height: 18.4px;
+    color: #000000;
+   
+  
+  }
   }
 
 
@@ -1977,8 +1950,8 @@ img {
     
     .card-text {
       flex: 1;
-      margin-top: 2%;
-      margin-left: 12%;
+      margin-top: 6%;
+      margin-left: 5%;
       margin-right: 10%;
   
     }
@@ -1989,13 +1962,18 @@ img {
     display: flex;
     flex-direction: column;
 
+
   }
 
- 
+ .p4 {
 
+  font-family: "Open Sans", ;
+  font-size: 19px;
+  color: #000000;
+ }
  
   .icons {
-    margin-left: 10%;
+    margin-left: 3%;
     width: 40%;
     margin-bottom: 7%;
     margin-top: -10%;
@@ -2071,7 +2049,7 @@ img {
     .card-text {
       flex: 1;
       margin-top: 2%;
-      margin-left: 12%;
+      margin-left: 5%;
       margin-right: 10%;
   
     }
@@ -2088,7 +2066,7 @@ img {
 
  
   .icons {
-    margin-left: 10%;
+    margin-left: 4%;
     width: 40%;
     margin-bottom: 7%;
     margin-top: -10%;
@@ -2144,6 +2122,16 @@ img {
       margin-right: 5%;
     
     }
+
+    .p4 {
+
+      font-family: "Open Sans";
+      font-size: 19px;
+      line-height: 18.4px;
+      color: #000000;
+     
+    
+    }
   }
 
 
@@ -2166,7 +2154,7 @@ img {
     .card-text {
       flex: 1;
       margin-top: 2%;
-      margin-left: 12%;
+      margin-left: 5%;
       margin-right: 10%;
   
     }
@@ -2183,10 +2171,10 @@ img {
 
  
   .icons {
-    margin-left: 10%;
-    width: 40%;
-    margin-bottom: 5%;
-    margin-top: -10%;
+    margin-left: 4%;
+    width: 30%;
+    margin-bottom: 8%;
+    margin-top: -8%;
   
   }
 
@@ -2248,7 +2236,7 @@ img {
     .card-text {
       flex: 1;
       margin-top: 2%;
-      margin-left: 12%;
+      margin-left: 5%;
       margin-right: 10%;
   
     }
@@ -2264,10 +2252,10 @@ img {
  
 
   .icons {
-    margin-left: 10%;
-    width: 40%;
-    margin-bottom: 7%;
-    margin-top: -10%;
+    margin-left: 4%;
+    width: 30%;
+    margin-bottom: 9%;
+    margin-top: -8%;
   
   }
 
@@ -2351,7 +2339,7 @@ img {
 
   .icons {
     margin-left: 10%;
-    width: 40%;
+    width: 30%;
     margin-bottom: 7%;
     margin-top: -10%;
   
@@ -2375,22 +2363,7 @@ img {
       width: 90%;
      
     }
- 
-    .dots-container {
-      margin-left: 88%; 
-    }
-    
 
-
-    .cards1-container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      width: 80%;
-     
-    }
-
-  }
   
   @media only screen and (min-width: 801px) and (max-width: 850px) {
   
@@ -2410,7 +2383,7 @@ img {
     .card-text {
       flex: 1;
       margin-top: 6%;
-      margin-left: 12%;
+      margin-left: 5%;
       margin-right: 3%;
   
     }
@@ -2422,6 +2395,8 @@ img {
   
     }
 
+
+    
     .cards1-container {
       display: flex;
       flex-wrap: wrap;
@@ -2431,35 +2406,16 @@ img {
      
     }
 
-    .blackline {
-      width: 90%;
-      height: 30px;
-      background-color: black;
-      margin: 6px 0; 
-      align-items: end;
-      position: relative;
-      margin-left: 10%;
-      margin-bottom: -16%;
-    
-    }
-    
-    .container {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-       margin-bottom: 15%; 
-      margin-right: 5%;
-    
-    }
+  
 
     
-  .icons {
-    margin-left: 10%;
-    width: 40%;
-    margin-bottom: 7%;
-    margin-top: -10%;
-  
-  }
+    .icons {
+      margin-left: 4%;
+      width: 30%;
+      margin-bottom: 9%;
+      margin-top: -10%;
+    
+    }
   }
     
     @media only screen and (min-width: 851px) and (max-width: 900px) {
@@ -2478,13 +2434,7 @@ img {
         z-index: 10;
       }
   
-      .card-text {
-        flex: 1;
-        margin-top: 2%;
-        margin-left: 12%;
-        margin-right: 10%;
     
-      }
   
       
     .card {
@@ -2498,22 +2448,6 @@ img {
  
 
    
-  .icons {
-    margin-left: 10%;
-    width: 40%;
-    margin-bottom: 7%;
-    margin-top: -10%;
-  
-  }
-      .cards1-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        width: 96%;
-        margin-top: -6%;
-       
-      }
-
 
       .arrow{
         position: absolute;
@@ -2555,13 +2489,6 @@ img {
   }
 
   
-  .icons {
-    margin-left: 10%;
-    width: 40%;
-    margin-bottom: 1%;
-    margin-top: -12%;
-  
-  }
   
   .blackline {
     width: 90%;
@@ -2583,6 +2510,8 @@ img {
     margin-right: 5%;
   
   }
+
+  
     }
 
 
